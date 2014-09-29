@@ -33,6 +33,12 @@ of the documentation.
 Rails contains a rake task that can be used to generate the documentation for
 an application. In Rails 4, the command is _rake doc:app_.
 
+If you are using rdoc markdown to decorate your comments, it makes sense that
+you also use it in the README. To do that use the rdoc extention: README.rdoc.
+This is the standard format for rails projects. Unfortunately it is not
+supported by some git hosts (bitbucket for example, will not render rdoc
+readmes but will GFM readmes).
+
 ### Yard
 
 Yard is an alternative ruby documentation system. It can be used with rdoc markdown,
