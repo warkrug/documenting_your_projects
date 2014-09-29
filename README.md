@@ -30,6 +30,9 @@ rdoc is then used to generate the project documentation, the decoration enhances
 the documentation. Done well, the added formatting will increase the legibility
 of the documentation.
 
+Rails contains a rake task that can be used to generate the documentation for
+an application. In Rails 4, the command is _rake doc:app_.
+
 ### Yard
 
 Yard is an alternative ruby documentation system. It can be used with rdoc markdown,
@@ -50,3 +53,18 @@ rdoc:: Thing has been modified by adding comments in rdoc markdown. The associat
 
 yard:: The comments in Thing have been modified to demonstrate some of the
     enhancements available in yard.
+
+Other uses of markdown
+----------------------
+
+### Storing formatted text
+
+If you want to make a simple Content Management System, storing rich content
+with markdown can be easier that storing raw html.
+
+### Writing any documents
+
+I used to use Word to write all my notes about what I was doing and why, or
+to store useful information. Nowadays I rarely bother to fire up a word processor
+for such simple tasks. Instead I write in markdown. Personally I find GFM
+perfect for this task as raw mark down is so readable.
